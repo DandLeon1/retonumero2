@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ .container{
+    margin: 5px;
+    padding: 8px;
+    width: 100%;
+    height: auto;
+    
+ }
+ .container>div{
+    width: 50%;
+    height: auto;
+   position: relative;
+   left: 25%;
+   top: 100px;
+ }
+ .container>div>img{
+    width: 80%;
+    height: auto;
+    
+ }
+ .boton{
+   display: block;
+   margin: 15px;
+   width: 10%;
+   height: auto;
+   position: relative;
+   left: 30%;
+   background-color: rgba(208, 20, 20, 0.192);
+   border: 2px solid grey;
+   border-radius: 40%;
+ }
+
+
+ 
